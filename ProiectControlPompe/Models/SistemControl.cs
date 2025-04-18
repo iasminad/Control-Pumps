@@ -1,1 +1,0 @@
-// SistemControl.cs - Skeleton file
