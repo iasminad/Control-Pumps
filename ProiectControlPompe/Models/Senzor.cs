@@ -1,0 +1,1 @@
+// Senzor.cs - Skeleton file

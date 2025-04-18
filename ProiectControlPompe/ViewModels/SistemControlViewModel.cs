@@ -1,0 +1,1 @@
+// SistemControlViewModel.cs - Skeleton file
