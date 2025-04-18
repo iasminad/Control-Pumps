@@ -1,0 +1,15 @@
+/home/iasmi/Documents/GitHub/Proiect-PS2/ProiectControlPompe/bin/Debug/net9.0/ProiectControlPompe
+/home/iasmi/Documents/GitHub/Proiect-PS2/ProiectControlPompe/bin/Debug/net9.0/ProiectControlPompe.deps.json
+/home/iasmi/Documents/GitHub/Proiect-PS2/ProiectControlPompe/bin/Debug/net9.0/ProiectControlPompe.runtimeconfig.json
+/home/iasmi/Documents/GitHub/Proiect-PS2/ProiectControlPompe/bin/Debug/net9.0/ProiectControlPompe.dll
+/home/iasmi/Documents/GitHub/Proiect-PS2/ProiectControlPompe/bin/Debug/net9.0/ProiectControlPompe.pdb
+/home/iasmi/Documents/GitHub/Proiect-PS2/ProiectControlPompe/obj/Debug/net9.0/ProiectControlPompe.GeneratedMSBuildEditorConfig.editorconfig
+/home/iasmi/Documents/GitHub/Proiect-PS2/ProiectControlPompe/obj/Debug/net9.0/ProiectControlPompe.AssemblyInfoInputs.cache
+/home/iasmi/Documents/GitHub/Proiect-PS2/ProiectControlPompe/obj/Debug/net9.0/ProiectControlPompe.AssemblyInfo.cs
+/home/iasmi/Documents/GitHub/Proiect-PS2/ProiectControlPompe/obj/Debug/net9.0/ProiectControlPompe.csproj.CoreCompileInputs.cache
+/home/iasmi/Documents/GitHub/Proiect-PS2/ProiectControlPompe/obj/Debug/net9.0/ProiectControlPompe.sourcelink.json
+/home/iasmi/Documents/GitHub/Proiect-PS2/ProiectControlPompe/obj/Debug/net9.0/ProiectControlPompe.dll
+/home/iasmi/Documents/GitHub/Proiect-PS2/ProiectControlPompe/obj/Debug/net9.0/refint/ProiectControlPompe.dll
+/home/iasmi/Documents/GitHub/Proiect-PS2/ProiectControlPompe/obj/Debug/net9.0/ProiectControlPompe.pdb
+/home/iasmi/Documents/GitHub/Proiect-PS2/ProiectControlPompe/obj/Debug/net9.0/ProiectControlPompe.genruntimeconfig.cache
+/home/iasmi/Documents/GitHub/Proiect-PS2/ProiectControlPompe/obj/Debug/net9.0/ref/ProiectControlPompe.dll
