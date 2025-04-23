@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProiectControlPompe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e1477da50ad0614da767af4bdd5756ca733e076")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e83ead79f49c6b32b2a439e633a0175c9cd5b07b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProiectControlPompe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProiectControlPompe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
