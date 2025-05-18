@@ -24,5 +24,17 @@ namespace ProiectControlPompe
         {
             InitializeComponent();
         }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void Pompa4_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

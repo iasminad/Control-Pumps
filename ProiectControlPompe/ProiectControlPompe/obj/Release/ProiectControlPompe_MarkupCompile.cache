@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Proiect-PS2\ProiectControlPompe\ProiectControlPompe\obj\Debug\
+C:\Proiect-PS2\ProiectControlPompe\ProiectControlPompe\obj\Release\
 ProiectControlPompe
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Proiect-PS2\ProiectControlPompe\ProiectControlPompe\App.xaml
 1219584333
 
@@ -16,5 +16,5 @@ C:\Proiect-PS2\ProiectControlPompe\ProiectControlPompe\App.xaml
 63-1546557577
 MainWindow.xaml;
 
-False
+True
 
