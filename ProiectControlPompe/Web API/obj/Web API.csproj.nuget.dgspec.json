@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ISJAR_25\\OneDrive\\Desktop\\Iasmina\\Visual Studio\\ProiectControlPompe\\Web API\\Web API.csproj": {}
+    "C:\\Users\\ISJAR_25\\OneDrive\\Documents\\GitHub\\Proiect-PS2\\ProiectControlPompe\\Web API\\Web API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ISJAR_25\\OneDrive\\Desktop\\Iasmina\\Visual Studio\\ProiectControlPompe\\Web API\\Web API.csproj": {
+    "C:\\Users\\ISJAR_25\\OneDrive\\Documents\\GitHub\\Proiect-PS2\\ProiectControlPompe\\Web API\\Web API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ISJAR_25\\OneDrive\\Desktop\\Iasmina\\Visual Studio\\ProiectControlPompe\\Web API\\Web API.csproj",
+        "projectUniqueName": "C:\\Users\\ISJAR_25\\OneDrive\\Documents\\GitHub\\Proiect-PS2\\ProiectControlPompe\\Web API\\Web API.csproj",
         "projectName": "Web API",
-        "projectPath": "C:\\Users\\ISJAR_25\\OneDrive\\Desktop\\Iasmina\\Visual Studio\\ProiectControlPompe\\Web API\\Web API.csproj",
+        "projectPath": "C:\\Users\\ISJAR_25\\OneDrive\\Documents\\GitHub\\Proiect-PS2\\ProiectControlPompe\\Web API\\Web API.csproj",
         "packagesPath": "C:\\Users\\ISJAR_25\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ISJAR_25\\OneDrive\\Desktop\\Iasmina\\Visual Studio\\ProiectControlPompe\\Web API\\obj\\",
+        "outputPath": "C:\\Users\\ISJAR_25\\OneDrive\\Documents\\GitHub\\Proiect-PS2\\ProiectControlPompe\\Web API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ISJAR_25\\AppData\\Roaming\\NuGet\\NuGet.Config",

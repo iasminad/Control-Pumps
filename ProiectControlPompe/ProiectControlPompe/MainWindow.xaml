@@ -8,40 +8,48 @@
         Title="MainWindow" Height="450" Width="800"
 		Background="#EAF2F8">
     <Grid>
-		<Grid.ColumnDefinitions>
-			<ColumnDefinition Width="306*"/>
-			<ColumnDefinition Width="7*"/>
-			<ColumnDefinition Width="87*"/>
-		</Grid.ColumnDefinitions>
-		<Grid.RowDefinitions>
-			<RowDefinition Height="36*"/>
-			<RowDefinition Height="181*"/>
-		</Grid.RowDefinitions>
-		<Button x:Name="Pompa1" Content="S1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="32,36,0,0" Click="Button_Click" Height="46" Width="47" Grid.RowSpan="2" Background="#D0F0F9" Foreground="#0B3D91" />
-		<Button x:Name="Pompa2" Content="S2" HorizontalAlignment="Left" Margin="29,31,0,0" VerticalAlignment="Top" Height="46" Width="47" RenderTransformOrigin="0.5,0.5" Grid.Row="1" Background="#D0F0F9" Foreground="#0B3D91"/>
-		<Button x:Name="Pompa3" Content="S3" HorizontalAlignment="Left" Margin="32,99,0,0" VerticalAlignment="Top" Height="46" Width="47" Click="Button_Click_1" RenderTransformOrigin="0.445,-0.318" Grid.Row="1" Background="#D0F0F9" Foreground="#0B3D91"/>
-		<Button x:Name="Pompa4" Content="S4" HorizontalAlignment="Left" Margin="32,170,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.684,-4.157" Height="46" Width="47" Click="Pompa4_Click" Grid.Row="1" Background="#D0F0F9" Foreground="#0B3D91"/>
-		<Button x:Name="StopAll" Content="S0" HorizontalAlignment="Left" Margin="56,292,0,0" VerticalAlignment="Top" Height="50" Width="50" Grid.Row="1" Background="#D0F0F9" Foreground="#0B3D91"/>
-		<Ellipse HorizontalAlignment="Left" Height="46" Margin="117,36,0,0" Stroke="Black" VerticalAlignment="Top" Width="47" Grid.RowSpan="2"/>
-		<Ellipse x:Name="LampaP2" HorizontalAlignment="Left" Height="46" Margin="117,31,0,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="47" RenderTransformOrigin="0.5,0.5">
-			<Ellipse.RenderTransform>
-				<TransformGroup>
-					<ScaleTransform/>
-					<SkewTransform AngleX="0.255"/>
-					<RotateTransform Angle="-0.987"/>
-					<TranslateTransform X="0.102" Y="-0.002"/>
-				</TransformGroup>
-			</Ellipse.RenderTransform>
-		</Ellipse>
-		<Ellipse HorizontalAlignment="Left" Height="46" Margin="117,36,0,0" Stroke="Black" VerticalAlignment="Top" Width="47" Grid.RowSpan="2"/>
-		<Ellipse x:Name="LampaP1" HorizontalAlignment="Left" Height="46" Margin="117,36,0,0" Stroke="Black" VerticalAlignment="Top" Width="47" Grid.RowSpan="2"/>
-		<Ellipse x:Name="LampaP3" HorizontalAlignment="Left" Height="46" Margin="117,99,0,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="47"/>
-		<Ellipse x:Name="LampaP4" HorizontalAlignment="Left" Height="46" Margin="117,170,0,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="47"/>
-		<CheckBox x:Name="Senzor1" Content="B1" HorizontalAlignment="Left" Margin="386,300,0,0" Grid.Row="1" VerticalAlignment="Top" Width="61" Height="28" FontSize="18" RenderTransformOrigin="2.317,0.228" Foreground="#0B3D91"/>
-		<CheckBox x:Name="Senzor2" Content="B2" HorizontalAlignment="Left" Margin="0,300,0,0" Grid.Row="1" VerticalAlignment="Top" Width="61" Height="28" FontSize="18" Grid.Column="1" Grid.ColumnSpan="2" Foreground="#0B3D91"/>
-		<Slider x:Name="RataDescarcare" HorizontalAlignment="Left" Margin="386,15,0,0" Grid.Row="1" VerticalAlignment="Top" Width="252" Grid.ColumnSpan="3" Height="64"/>
-		<TextBox x:Name="txtSliderValue" HorizontalAlignment="Left" Margin="386,59,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="252" Grid.ColumnSpan="3" Height="50" Background="#EAF2F8" Foreground="#0B3D91"/>
-		<TextBox x:Name="PresiuneSimulata" HorizontalAlignment="Left" Margin="140,306,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="140" Height="36" Background="#EAF2F8" Foreground="#0B3D91"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="306*"/>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="87*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="69*"/>
+            <RowDefinition Height="365*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="Stop_Button" Content="S0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="32,26,0,0" Click="Button_Click" Height="46" Width="47" Background="#D0F0F9" Foreground="#0B3D91" Grid.RowSpan="2" />
+        <Button x:Name="Pompa1" Content="S1" HorizontalAlignment="Left" Margin="32,19,0,0" VerticalAlignment="Top" Height="46" Width="46" RenderTransformOrigin="0.5,0.5" Grid.Row="1" Background="#D0F0F9" Foreground="#0B3D91"/>
+        <Button x:Name="Pompa2" Content="S2" HorizontalAlignment="Left" Margin="32,76,0,0" VerticalAlignment="Top" Height="46" Width="47" Click="Button_Click_1" RenderTransformOrigin="0.445,-0.318" Grid.Row="1" Background="#D0F0F9" Foreground="#0B3D91"/>
+        <Button x:Name="Pompa3" Content="S3" HorizontalAlignment="Left" Margin="32,135,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.684,-4.157" Height="46" Width="47" Click="Pompa4_Click" Grid.Row="1" Background="#D0F0F9" Foreground="#0B3D91"/>
+        <Button x:Name="Pompa4" Content="S4" HorizontalAlignment="Left" Margin="33,193,0,0" VerticalAlignment="Top" Height="46" Width="46" Grid.Row="1" Background="#D0F0F9" Foreground="#0B3D91"/>
+        <Ellipse x:Name="LampaP1" HorizontalAlignment="Left" Height="46" Margin="117,23,0,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="47" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.255"/>
+                    <RotateTransform Angle="-0.987"/>
+                    <TranslateTransform X="0.102" Y="-0.002"/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="LampaP2" HorizontalAlignment="Left" Height="46" Margin="117,76,0,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="47"/>
+        <Ellipse x:Name="LampaP3" HorizontalAlignment="Left" Height="46" Margin="117,135,0,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="47"/>
+        <Slider x:Name="IndicatorB2" HorizontalAlignment="Left" Margin="371,19,0,0" Grid.Row="1" VerticalAlignment="Top" Width="252" Grid.ColumnSpan="2" Height="64"/>
+        <TextBox x:Name="Presiune_TextBox" HorizontalAlignment="Left" Margin="434,47,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Indicator Presiune (B2)" VerticalAlignment="Top" Width="126" Height="20" Background="#EAF2F8" Foreground="#0B3D91"/>
+        <Ellipse x:Name="LampaP4" HorizontalAlignment="Left" Height="46" Margin="117,193,0,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="47"/>
+        <Button x:Name="Start_Button" Content="START" HorizontalAlignment="Left" Margin="33,272,0,0" VerticalAlignment="Top" Height="39" Width="131" Grid.Row="1" Background="#D0F0F9" Foreground="#0B3D91"/>
+        <Ellipse x:Name="IndicatorB1" HorizontalAlignment="Left" Height="46" Margin="362,134,0,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="47" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.255"/>
+                    <RotateTransform Angle="-0.987"/>
+                    <TranslateTransform X="0.102" Y="-0.002"/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <TextBox x:Name="Senzor_TextBlock" HorizontalAlignment="Left" Margin="425,148,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Indicator senzor critic (B1)" VerticalAlignment="Top" Width="145" Height="20" Background="#EAF2F8" Foreground="#0B3D91"/>
+        <TextBox x:Name="Senzor_TextBlock_Copy" HorizontalAlignment="Left" Margin="330,272,0,0" Grid.Row="1" TextWrapping="Wrap" Text="ATENTIE! Presiune critica! Senzor B1 activat!" VerticalAlignment="Top" Width="365" Height="39" Background="#EAF2F8" Foreground="#0B3D91" FontSize="18" Grid.ColumnSpan="3"/>
 
-	</Grid>
+    </Grid>
 </Window>

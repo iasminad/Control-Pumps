@@ -36,5 +36,15 @@ namespace ProiectControlPompe
         {
 
         }
+
+        private void PresiuneSimulata_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txtSliderValue_Copy_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

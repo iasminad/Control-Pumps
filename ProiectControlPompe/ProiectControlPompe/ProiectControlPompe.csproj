@@ -200,13 +200,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Controllers\AuthController.cs" />
-    <Compile Include="Models\Pompa.cs" />
-    <Compile Include="Models\Senzor.cs" />
-    <Compile Include="Models\SistemControl.cs" />
-    <Compile Include="Startup.cs" />
-    <Compile Include="Utils\TimerManager.cs" />
-    <Compile Include="ViewModels\SistemControlViewModel.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -221,6 +214,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
