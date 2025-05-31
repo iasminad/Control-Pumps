@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProiectControlPompe.Properties
+namespace Simulator.Properties
 {
 
 
