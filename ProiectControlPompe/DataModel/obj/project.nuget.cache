@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zKIg9N3Q5cP9Tsk6ps6QEWwvtEwUgNWyVgtHS2Mh1Ohx2iRYYswG6uqc4hYRco3BdHHLlOBOHCutxGEqD8WuSA==",
+  "dgSpecHash": "vuCyAQ9h0fQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ISJAR_25\\OneDrive\\Documents\\GitHub\\Proiect-PS2\\ProiectControlPompe\\DataModel\\DataModel.csproj",
+  "projectFilePath": "C:\\Proiect-PS2\\ProiectControlPompe\\DataModel\\DataModel.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
