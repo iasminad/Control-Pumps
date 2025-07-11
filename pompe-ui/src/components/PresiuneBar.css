@@ -1,0 +1,38 @@
+.pressure-container {
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px;
+  background: #eef;
+  border-radius: 10px;
+}
+
+.bar {
+  height: 20px;
+  background-color: #2e86de;
+  transition: width 0.3s;
+  border-radius: 5px;
+}
+
+.text {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.senzori {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.senzor {
+  width: 100px;
+  padding: 5px;
+  background-color: #ccc;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.senzor.on {
+  background-color: #e74c3c;
+  color: white;
+}
