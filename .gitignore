@@ -1,0 +1,25 @@
+#VS
+.vs
+
+# Debug
+obj
+bin
+packages
+
+# Project CS
+Communicator.csproj
+ConsoleConsumer.csproj
+DataModel.csproj
+Monitor.csproj
+Simulator.csproj
+Web API.csproj
+Web API.csproj.user
+
+# Folders
+wwwroot
+Views
+
+# Auto-generated
+Resources.resx
+Resources.Designer.cs
+Settings.Designer.cs

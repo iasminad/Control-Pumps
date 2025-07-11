@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "ProiectControlPompe\\Simulator.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Web API\\Web API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Monitor\\Monitor.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ConsoleConsumer\\ConsoleConsumer.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
